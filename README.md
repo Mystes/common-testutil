@@ -1,5 +1,6 @@
 # common-testutil
-![Build status](https://circleci.com/gh/Mystes/common-testutil.svg?style=shield&circle-token=1d26db62821d6a3f03e9780657db6af6757e4fd2)
+![Build status](https://circleci.com/gh/Mystes/common-testutil.svg?style=shield&circle-token=e7cd98caa4f001d6d5c431779f6553228b19c17a)
+
 Common-testutil is a set of helper classes for XSLT transformations, XSD validations and running XPATH expressions against XML.
 
 ## Features
