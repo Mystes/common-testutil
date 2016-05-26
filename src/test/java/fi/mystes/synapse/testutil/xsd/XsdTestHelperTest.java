@@ -17,7 +17,9 @@ package fi.mystes.synapse.testutil.xsd;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.xml.sax.SAXException;
 
+import java.io.IOException;
 import java.io.InputStream;
 
 import static fi.mystes.synapse.testutil.ResourceProvider.classpathResource;
@@ -33,15 +35,15 @@ public class XsdTestHelperTest {
     }
 
     @Test
-    public void shouldReturnTrueWhenXmlIsValid() {
+    public void shouldReturnTrueWhenXmlIsValid() throws IOException, SAXException {
         InputStream validXml = classpathResource("ValidXsdTest.xml");
-        assertTrue(XsdTestHelper.validateAgainstXSD(validXml, finvoiceXsd));
+        XsdTestHelper.validateAgainstXSD(validXml, finvoiceXsd);
     }
 
-    @Test
-    public void shouldReturnFalseWhenXmlIsInvalid() {
+    @Test(expected = SAXException.class)
+    public void shouldReturnFalseWhenXmlIsInvalid() throws IOException, SAXException {
         InputStream invalidXml = classpathResource("InvalidXsdTest.xml");
-        assertFalse(XsdTestHelper.validateAgainstXSD(invalidXml, finvoiceXsd));
+        XsdTestHelper.validateAgainstXSD(invalidXml, finvoiceXsd);
     }
 
 }

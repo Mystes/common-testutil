@@ -1,6 +1,6 @@
 # common-testutil
 ![Build status](https://circleci.com/gh/Mystes/common-testutil.svg?style=shield&circle-token=1d26db62821d6a3f03e9780657db6af6757e4fd2)
-Common-testutil is a set of helper classes for XSLT transformations, XSD validations and running XPATH expressions against XML.
+Common-testutil is a set of helper classes for testing XSLT transformations, XSD validations and running XPATH expressions against XML.
 
 ## Features
 
@@ -12,7 +12,7 @@ XSD
  * Validating XML against XSD
 
 XPATH
- * Getting a single/multiple strings that matches given XPATH expression and input XML
+ * Getting a single/multiple string values that matches given XPATH expression and input XML
  * Getting a list of nodes that matches given XPATH expression and input XML
 
 Other

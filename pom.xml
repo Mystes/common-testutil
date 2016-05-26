@@ -8,8 +8,8 @@
     <version>1.0</version>
     <packaging>jar</packaging>
     <name>common-testutil</name>
-    <description>Common-testutil is a set of helper classes for XSLT transformations, XSD validations and running XPATH
-        expressions against XML.
+    <description>Common-testutil is a set of helper classes for testing XSLT transformations, XSD validations and
+        running XPATH expressions against XML.
     </description>
 
     <build>
