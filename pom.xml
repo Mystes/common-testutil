@@ -51,6 +51,14 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-mystes-maven</id>
+            <name>mystes-maven</name>
+            <url>https://api.bintray.com/maven/mystes/maven/common-testutil/;publish=1</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

@@ -22,6 +22,12 @@ Other
 
 ## Usage
 
+##### 1. Add as a Maven/Gradle/Ivy dependency to your project
+
+Get the dependency snippet from [here](https://bintray.com/mystes/maven/common-testutil/view).
+
+##### 2. Use it
+
 For more detailed instructions how to use helper classes, please read the javadoc documentation. Javadoc documentation can be generated in the following way:
 
 1) Clone this project
