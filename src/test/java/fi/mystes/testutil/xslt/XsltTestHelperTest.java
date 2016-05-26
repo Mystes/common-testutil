@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package fi.mystes.synapse.testutil.xslt;
+package fi.mystes.testutil.xslt;
 
-import fi.mystes.synapse.testutil.xpath.XPathUtil;
+import fi.mystes.testutil.xpath.XPathUtil;
 import org.junit.Test;
 
 import javax.xml.transform.TransformerException;
@@ -26,8 +26,8 @@ import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static fi.mystes.synapse.testutil.ResourceProvider.classpathResource;
-import static fi.mystes.synapse.testutil.StreamHelper.stringAsInputStream;
+import static fi.mystes.testutil.ResourceProvider.classpathResource;
+import static fi.mystes.testutil.StreamHelper.stringAsInputStream;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 

@@ -13,12 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package fi.mystes.synapse.testutil;
+package fi.mystes.testutil;
 
-import java.io.ByteArrayInputStream;
 import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.StringBufferInputStream;
 
 /**
  * Helper class to read a resource from classpath.

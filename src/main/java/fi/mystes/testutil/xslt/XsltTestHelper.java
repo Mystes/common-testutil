@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package fi.mystes.synapse.testutil.xslt;
+package fi.mystes.testutil.xslt;
 
 import javax.xml.transform.*;
 import javax.xml.transform.stream.StreamResult;

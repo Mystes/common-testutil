@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package fi.mystes.synapse.testutil.xsd;
+package fi.mystes.testutil.xsd;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -22,8 +22,7 @@ import org.xml.sax.SAXException;
 import java.io.IOException;
 import java.io.InputStream;
 
-import static fi.mystes.synapse.testutil.ResourceProvider.classpathResource;
-import static org.junit.Assert.*;
+import static fi.mystes.testutil.ResourceProvider.classpathResource;
 
 public class XsdTestHelperTest {
 

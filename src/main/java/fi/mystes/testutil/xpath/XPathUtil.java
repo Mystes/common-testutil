@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package fi.mystes.synapse.testutil.xpath;
+package fi.mystes.testutil.xpath;
 
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
